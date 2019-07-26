@@ -1,0 +1,7 @@
+ spring cloud bus 消息总线原理
+ 1、POST http://localhost:8002/bus/refresh 触发服务端
+ 2、服务端将消息发送到spring cloud bus
+ 3、bus 通知其他各个客户端
+ 4、各个客户端从服务端获取配置信息
+
+ 具体的实现是根据配置文件去做，但实际的源码不清楚
