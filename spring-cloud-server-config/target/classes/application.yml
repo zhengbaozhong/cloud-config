@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhengbaozhong/cloud-config.git
+          search-paths: config-repo
+          username: zhengbaozhong
+          password: zbz201366941204
